@@ -6,9 +6,11 @@ This toolkit is designed for fast learning of YOLO and Tiny YOLO neural networks
 
 ## How to create your dataset
 **First way - use Open Images Dataset**
+
 Follow [OpenImagesV4Loader.ipynb](https://github.com/Gooogr/YOLO_toolkit/blob/master/1\)OpenImagesV4Loader.ipynb)
 
 **Second way - Kaggle dataset. Or anywhere else.**
+
 There are plenty of object detection datasets on [Kaggle](https://www.kaggle.com/search?q=tag%3A%22object+detection%22+in%3Adatasets).
 Some of them are ready to go with YOLO algorithms, some of them not. In this case, you will most probably face with VOC labels in XML files. You can use VOC to YOLO converter:
 ```
@@ -18,7 +20,6 @@ By default, class indexes start with 0. You can correct labels in TXT files with
 ```
 ReplaceSubStringInFile.py
 ```
-
 
 ### How to configure darknet files for training
 
