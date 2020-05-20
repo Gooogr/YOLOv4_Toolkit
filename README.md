@@ -48,15 +48,3 @@ valid = /mydrive/YOLO_toolkit/test.txt
 names = /mydrive/YOLO_toolkit/obj.names
 backup = /mydrive/YOLO_toolkit/yolo_weights
 train = /mydrive/YOLO_toolkit/train.txt
-
-
-## How to convert your model weights to TensorFlow format
-Load the weights using `loadWeights.py` script. This will convert the yolov3 weights into TensorFlow .ckpt model files.
-
-```
-# yolov3
-python loadWeights.py
-
-# yolov3-tiny
-python loadWeights.py --weights ./weights/yolov3-tiny.weights --output ./weights/yolov3-tiny.tf --tiny
-```
