@@ -2,7 +2,7 @@
 Toolkit for training custom YOLOv3 models in [Google Colab](
 https://drive.google.com/open?id=1gTMES2Aj4NeNEK9YzjNdEmGEcItGsvxj).<br>
 
-This toolkit is designed for fast learning of YOLO and Tiny YOLO neural networks, starting from data collection and up to the finished TensorFlow model.
+This toolkit is designed for fast learning of YOLO and Tiny YOLO neural networks, starting from data collection and up to the trained model with custom weights.
 
 ## How to create your dataset
 **First way - use Open Images Dataset**
