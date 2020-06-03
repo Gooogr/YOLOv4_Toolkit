@@ -1,12 +1,12 @@
 # YOLO_toolkit
-This toolkit is designed for fast and easy training of YOLO and Tiny YOLO neural networks on the Google Colab GPU, starting from data collection and up to the trained model with custom weights.<br>
+This toolkit was designed for fast and easy training of YOLO and Tiny YOLO neural networks on the Google Colab GPU, starting from data collection and up to the trained model with custom weights.<br>
 Supported YOLO versions - v3 and v4.
 
 ### How to start with it
 Follow this link to start in playground mode [Toolkit Initializer](https://colab.research.google.com/drive/15rir_3KlNU7asWc2jLiDU1VzK0neqK6O?usp=sharing)<br>
 It will help you to automatically create a working folder in your google disk and clone all necessary files from this repo there. 
 
-Alternatively, you can copy files from [YOLO_Toolkit_Public](https://drive.google.com/drive/folders/1R2ePqD8al_5YWm3hiq82uyJKgXaLFcli?usp=sharing) folder placed in my google disk account.
+Alternatively, you can copy files from [YOLO_Toolkit_Public](https://drive.google.com/drive/folders/1R2ePqD8al_5YWm3hiq82uyJKgXaLFcli?usp=sharing) google disk folder. 
 
 ## How to create your dataset
 **First way - use Open Images Dataset**
@@ -29,8 +29,15 @@ ReplaceSubStringInFile.py
 
 Also, check these link to different dataset in AlexeyAB repository: https://github.com/AlexeyAB/darknet/tree/master/scripts#datasets
 
+**Third way - create it from scratch**
+
+The bravest path! So, you will definetly need some instruments for that:
+* [Google images downloader](https://github.com/hardikvasa/google-images-download) - Python Script to download hundreds of images from 'Google Images'.
+* [LabelImg](https://github.com/tzutalin/labelImg) -  Ggraphical image annotation tool.
+
 ## How to train your model
-Follow [TrainCustomYOLOweights.ipynb](https://github.com/Gooogr/YOLO_toolkit/blob/master/2\)TrainCustomYOLOweights.ipynb)
+Follow [TrainCustomYOLOweights.ipynb](https://github.com/Gooogr/YOLO_toolkit/blob/master/2\)TrainCustomYOLOweights.ipynb)<br>
+This traing notebook use AlexeyAB's darknet YOLO implementation. I also made same test with  Pjreddie's version, but training was slower and results was weaker, so now this notebook version is deprecated.
 
 ### How to configure darknet files for training
 
@@ -57,3 +64,7 @@ valid = /mydrive/YOLO_toolkit/test.txt
 names = /mydrive/YOLO_toolkit/obj.names
 backup = /mydrive/YOLO_toolkit/yolo_weights
 train = /mydrive/YOLO_toolkit/train.txt
+
+## Acknowledgments
+[AlexeyAB, darknet](https://github.com/AlexeyAB/darknet)<br>
+[OIDv4_ToolKit](https://github.com/theAIGuysCode/OIDv4_ToolKit)
