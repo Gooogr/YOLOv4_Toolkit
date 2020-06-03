@@ -1,15 +1,21 @@
 # YOLO_toolkit
-Toolkit for training custom YOLOv3 models in [Google Colab](
-https://drive.google.com/open?id=1gTMES2Aj4NeNEK9YzjNdEmGEcItGsvxj).<br>
+This toolkit was designed for fast and easy training of YOLO and Tiny YOLO neural networks on the Google Colab GPU, starting from data collection and up to the trained model with custom weights.<br>
+Supported YOLO versions - v3 and v4.
 
-This toolkit is designed for fast learning of YOLO and Tiny YOLO neural networks, starting from data collection and up to the trained model with custom weights.
+### How to start with it
+Follow this link to start in playground mode [Toolkit Initializer](https://colab.research.google.com/drive/15rir_3KlNU7asWc2jLiDU1VzK0neqK6O?usp=sharing)<br>
+It will help you to automatically create a working folder in your google disk and clone all necessary files from this repo there. 
+
+Alternatively, you can copy files from [YOLO_Toolkit_Public](https://drive.google.com/drive/folders/1R2ePqD8al_5YWm3hiq82uyJKgXaLFcli?usp=sharing) google disk folder. 
 
 ## How to create your dataset
 **First way - use Open Images Dataset**
 
-Follow [OpenImagesV4Loader.ipynb](https://github.com/Gooogr/YOLO_toolkit/blob/master/1\)OpenImagesV4Loader.ipynb)
+Follow OpenImagesV4Loader.ipynb<br>
+Available image classes hystogram: https://storage.googleapis.com/openimages/2018_04/bbox_labels_600_hierarchy_visualizer/circle.html<br>
+Dataset description: https://storage.googleapis.com/openimages/web/visualizer/index.html?set=train&type=segmentation&r=false&c=%2Fm%2F01lcw4
 
-**Second way - Kaggle dataset. Or whatever.**
+**Second way - Kaggle dataset or whatever.**
 
 There are plenty of object detection datasets on [Kaggle](https://www.kaggle.com/search?q=tag%3A%22object+detection%22+in%3Adatasets).
 Some of them are ready to go with YOLO algorithms, some of them not. In this case, you will most probably face with VOC labels in XML files. You can use VOC to YOLO converter:
@@ -20,8 +26,18 @@ By default, class indexes start with 0. You can correct labels in TXT files with
 ```
 ReplaceSubStringInFile.py
 ```
+
+Also, check these link to different dataset in AlexeyAB repository: https://github.com/AlexeyAB/darknet/tree/master/scripts#datasets
+
+**Third way - create it from scratch**
+
+The bravest path! So, you will definetly need some instruments for that:
+* [Google images downloader](https://github.com/hardikvasa/google-images-download) - Python Script to download hundreds of images from 'Google Images'.
+* [LabelImg](https://github.com/tzutalin/labelImg) -  Ggraphical image annotation tool.
+
 ## How to train your model
-Follow [TrainCustomYOLOweights.ipynb](https://github.com/Gooogr/YOLO_toolkit/blob/master/2\)TrainCustomYOLOweights.ipynb)
+Follow [TrainCustomYOLOweights.ipynb](https://github.com/Gooogr/YOLO_toolkit/blob/master/2\)TrainCustomYOLOweights.ipynb)<br>
+This traing notebook use AlexeyAB's darknet YOLO implementation. I also made same test with  Pjreddie's version, but training was slower and results was weaker, so now this notebook version is deprecated.
 
 ### How to configure darknet files for training
 
@@ -48,3 +64,7 @@ valid = /mydrive/YOLO_toolkit/test.txt
 names = /mydrive/YOLO_toolkit/obj.names
 backup = /mydrive/YOLO_toolkit/yolo_weights
 train = /mydrive/YOLO_toolkit/train.txt
+
+## Acknowledgments
+[AlexeyAB, darknet](https://github.com/AlexeyAB/darknet)<br>
+[OIDv4_ToolKit](https://github.com/theAIGuysCode/OIDv4_ToolKit)
