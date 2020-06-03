@@ -1,13 +1,16 @@
 # YOLO_toolkit
-Toolkit for training custom YOLOv3 models in [Google Colab](
-https://drive.google.com/open?id=1gTMES2Aj4NeNEK9YzjNdEmGEcItGsvxj).<br>
+This toolkit is designed for fast training of YOLO and Tiny YOLO neural networks, starting from data collection and up to the trained model with custom weights.
 
-This toolkit is designed for fast learning of YOLO and Tiny YOLO neural networks, starting from data collection and up to the trained model with custom weights.
+### How to start with it
+Follow this link to start in playground mode [Toolkit Initializer]()<br>
+It will automatically create a working folder in your google disk and clone all necessary files from this repo there. 
+
+Alternatively, you can copy files from [YOLO_Toolkit_Public]() folder placed in my google disk account.
 
 ## How to create your dataset
 **First way - use Open Images Dataset**
 
-Follow [OpenImagesV4Loader.ipynb](https://github.com/Gooogr/YOLO_toolkit/blob/master/1\)OpenImagesV4Loader.ipynb)
+Follow OpenImagesV4Loader.ipynb
 
 **Second way - Kaggle dataset. Or whatever.**
 
