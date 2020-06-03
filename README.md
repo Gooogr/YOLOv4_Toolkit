@@ -40,9 +40,11 @@ Follow [TrainCustomYOLOweights.ipynb](https://github.com/Gooogr/YOLO_toolkit/blo
 This traing notebook use AlexeyAB's darknet YOLO implementation. I also made same test with  Pjreddie's version, but training was slower and results was weaker, so now this notebook version is deprecated.
 
 ### How to configure darknet files for training
+You can find all these files in ```darknet_files``` folder
 
 **cfg files**
 Links to original YOLO cfg files:
+* [YOLOv4](https://raw.githubusercontent.com/AlexeyAB/darknet/master/cfg/yolov4.cfg)
 * [Tiny YOLOv3](https://raw.githubusercontent.com/AlexeyAB/darknet/master/cfg/yolov3-tiny-prn.cfg)
 * [YOLOv3](https://raw.githubusercontent.com/AlexeyAB/darknet/master/cfg/yolov3.cfg)
 
