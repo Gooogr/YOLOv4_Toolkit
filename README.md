@@ -11,7 +11,9 @@ Alternatively, you can copy files from [YOLO_Toolkit_Public](https://drive.googl
 ## How to create your dataset
 **First way - use Open Images Dataset**
 
-Follow OpenImagesV4Loader.ipynb
+Follow OpenImagesV4Loader.ipynb<br>
+Available image classes hystogram: https://storage.googleapis.com/openimages/2018_04/bbox_labels_600_hierarchy_visualizer/circle.html<br>
+Dataset description: https://storage.googleapis.com/openimages/web/visualizer/index.html?set=train&type=segmentation&r=false&c=%2Fm%2F01lcw4
 
 **Second way - Kaggle dataset or whatever.**
 
