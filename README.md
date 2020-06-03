@@ -1,5 +1,6 @@
 # YOLO_toolkit
-This toolkit is designed for fast training of YOLO and Tiny YOLO neural networks, starting from data collection and up to the trained model with custom weights.
+This toolkit is designed for fast and easy training of YOLO and Tiny YOLO neural networks on the Google Colab GPU, starting from data collection and up to the trained model with custom weights.<br>
+Supported YOLO versions - v3 and v4.
 
 ### How to start with it
 Follow this link to start in playground mode [Toolkit Initializer](https://colab.research.google.com/drive/15rir_3KlNU7asWc2jLiDU1VzK0neqK6O?usp=sharing)<br>
