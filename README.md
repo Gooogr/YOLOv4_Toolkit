@@ -1,5 +1,3 @@
-# YOLO_toolkit
-
 <p align="center">
   <img width="1000" height="200" src="https://raw.githubusercontent.com/Gooogr/YOLO_toolkit/master/image.png">
 </p>
