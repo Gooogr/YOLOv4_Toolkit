@@ -1,4 +1,9 @@
 # YOLO_toolkit
+
+<p align="center">
+  <img width="1000" height="200" src="https://raw.githubusercontent.com/Gooogr/YOLO_toolkit/master/image.png">
+</p>
+
 This toolkit was designed for fast and easy training of YOLO and Tiny YOLO neural networks on the Google Colab GPU, starting from data collection and up to the trained model with custom weights.<br>
 Supported YOLO versions - v3 and v4.
 
