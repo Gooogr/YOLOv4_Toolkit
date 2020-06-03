@@ -12,7 +12,7 @@ Alternatively, you can copy files from [YOLO_Toolkit_Public]() folder placed in 
 
 Follow OpenImagesV4Loader.ipynb
 
-**Second way - Kaggle dataset. Or whatever.**
+**Second way - Kaggle dataset or whatever.**
 
 There are plenty of object detection datasets on [Kaggle](https://www.kaggle.com/search?q=tag%3A%22object+detection%22+in%3Adatasets).
 Some of them are ready to go with YOLO algorithms, some of them not. In this case, you will most probably face with VOC labels in XML files. You can use VOC to YOLO converter:
@@ -23,6 +23,9 @@ By default, class indexes start with 0. You can correct labels in TXT files with
 ```
 ReplaceSubStringInFile.py
 ```
+
+Also, check these link to different dataset in AlexeyAB repository: https://github.com/AlexeyAB/darknet/tree/master/scripts#datasets
+
 ## How to train your model
 Follow [TrainCustomYOLOweights.ipynb](https://github.com/Gooogr/YOLO_toolkit/blob/master/2\)TrainCustomYOLOweights.ipynb)
 
