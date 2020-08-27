@@ -64,10 +64,10 @@ Write labels in the same way as in the classes.txt file. One class - one line. I
 
 **yolo.data**
 
-Specify classes amount. Check pathes to other files but they should be right by default:
-valid = /mydrive/YOLO_toolkit/test.txt
-names = /mydrive/YOLO_toolkit/obj.names
-backup = /mydrive/YOLO_toolkit/yolo_weights
+Specify classes amount. Check pathes to other files but they should be right by default:<br>
+valid = /mydrive/YOLO_toolkit/test.txt <br>
+names = /mydrive/YOLO_toolkit/obj.names <br>
+backup = /mydrive/YOLO_toolkit/yolo_weights <br>
 train = /mydrive/YOLO_toolkit/train.txt
 
 ## Acknowledgments
