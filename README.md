@@ -18,25 +18,6 @@ Follow OpenImagesV4Loader.ipynb<br>
 Available image classes hystogram: https://storage.googleapis.com/openimages/2018_04/bbox_labels_600_hierarchy_visualizer/circle.html<br>
 Dataset description: https://storage.googleapis.com/openimages/web/visualizer/index.html?set=train&type=segmentation&r=false&c=%2Fm%2F01lcw4
 
-**Second way - Kaggle dataset or whatever.**
-
-There are plenty of object detection datasets on [Kaggle](https://www.kaggle.com/search?q=tag%3A%22object+detection%22+in%3Adatasets).
-Some of them are ready to go with YOLO algorithms, some of them not. In this case, you will most probably face with VOC labels in XML files. You can use VOC to YOLO converter:
-```
-python3 VOC2YOLODatasetConverter.py -d path_to_your_VOC_dataset -c name_of_classes_that_you_need
-```
-By default, class indexes start with 0. You can correct labels in TXT files with the help of this script:
-```
-ReplaceSubStringInFile.py
-```
-
-Also, check these link to different dataset in AlexeyAB repository: https://github.com/AlexeyAB/darknet/tree/master/scripts#datasets
-
-**Third way - create it from scratch**
-
-The bravest path! So, you will definetly need some instruments for that:
-* [Google images downloader](https://github.com/hardikvasa/google-images-download) - Python Script to download hundreds of images from 'Google Images'.
-* [LabelImg](https://github.com/tzutalin/labelImg) -  Ggraphical image annotation tool.
 
 ## How to train your model
 Follow [TrainCustomYOLOweights.ipynb](https://github.com/Gooogr/YOLO_toolkit/blob/master/2\)TrainCustomYOLOweights.ipynb)<br>
