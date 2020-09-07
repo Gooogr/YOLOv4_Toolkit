@@ -1,4 +1,0 @@
-Weights can be loaded automatically using TrainCustomYOLOweights.ipynb or you can use these links:
-* YOLOv4: https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.conv.137
-* YOLOv3: https://pjreddie.com/media/files/darknet53.conv.74
-* Tiny-YOLOv3: https://pjreddie.com/media/files/yolov3-tiny.weights
