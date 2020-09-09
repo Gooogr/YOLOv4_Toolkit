@@ -1,7 +1,0 @@
-classes = 2
-train  = /mydrive/YOLO_toolkit/train.txt
-valid  = /mydrive/YOLO_toolkit/test.txt
-names = /mydrive/YOLO_toolkit/darknet_files/obj.names
-backup = /mydrive/YOLO_toolkit/yolo_weights
-
-
