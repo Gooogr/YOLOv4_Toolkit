@@ -5,9 +5,11 @@
 This toolkit was designed for fast and easy training of YOLO v4 and Tiny YOLO v4 neural networks on the Google Colab GPU. In the beginning you only have to specify  the classes from the ImageNetV4 dataset and the samples amount. After that, script will automatically  prepare dataset, setting up framework and create most of necessary files.<br>
 
 Toolkit covers the following stages:
-* Automatic data set formation
-* Darknet files preparations and model training
-* Prediction generating
+* [Train_yolov4_imagenet.ipynb](https://github.com/Gooogr/YOLO_Toolkit/blob/master/Train_yolov4_imagenet.ipynb):
+  * Automatic data set formation
+  * Darknet files preparations and model training
+* [Predict_yolov4.ipynb](https://github.com/Gooogr/YOLO_Toolkit/blob/master/Predict_yolov4.ipynb):
+  * Prediction generating
 * Converting Darknet model to the TensorFlow format (in process)
 * Providing minimal usage example with TensorFlow (in process)
 
