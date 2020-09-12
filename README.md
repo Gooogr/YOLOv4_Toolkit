@@ -12,7 +12,7 @@ Toolkit covers the following stages:
   * Prediction generating
 * [Convert_YOLO2TF.ipynb](https://github.com/Gooogr/YOLO_Toolkit/blob/master/Convert_YOLO2TF.ipynb)
   * Converting Darknet model to the TensorFlow format
-* Minimal_tf_example.ipynb (in process)
+* [Minimal_tf_example.ipynb](https://github.com/Gooogr/YOLO_Toolkit/blob/master/Minimal_tf_example.ipynb) (in process)
   * Providing minimalistic detector example with TensorFlow .pb model. Useful for running converted model in separated projects
 
 The training set of V4 contains 14.6M bounding boxes for 600 object classes on 1.74M images<br>
