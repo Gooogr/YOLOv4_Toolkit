@@ -23,6 +23,7 @@ The training set of V4 contains 14.6M bounding boxes for 600 object classes on 1
 Follow this link to start in playground mode [Train_yolov4_imagenet.ipynb](https://colab.research.google.com/github/Gooogr/YOLO_Toolkit/blob/imagenet/Train_yolov4_imagenet.ipynb)<br>
 
 ## Acknowledgments
-[AlexeyAB, darknet](https://github.com/AlexeyAB/darknet)<br>
-[OIDv4_ToolKit](https://github.com/theAIGuysCode/OIDv4_ToolKit)<br>
+[Darknet](https://github.com/AlexeyAB/darknet) - AlexeyAB's version of the Darknet framework <br>
+[OIDv4_ToolKit](https://github.com/theAIGuysCode/OIDv4_ToolKit) - ImagenetV4 dataset downloader <br>
+[tensorflow-yolov4-tflite](https://github.com/hunglc007/tensorflow-yolov4-tflite) - Weights converter
 
