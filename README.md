@@ -11,8 +11,9 @@ Toolkit covers the following stages:
 * [Predict_yolov4.ipynb](https://github.com/Gooogr/YOLO_Toolkit/blob/master/Predict_yolov4.ipynb):
   * Prediction generating
 * [Convert_YOLO2TF.ipynb](https://github.com/Gooogr/YOLO_Toolkit/blob/master/Convert_YOLO2TF.ipynb)
-  * Converting Darknet model to the TensorFlow format (in process)
-* Providing minimal usage example with TensorFlow .pb model (in process)
+  * Converting Darknet model to the TensorFlow format
+* Minimal_tf_example.ipynb (in process)
+  * Providing minimalistic detector example with TensorFlow .pb model. Useful for running converted model in separated projects
 
 The training set of V4 contains 14.6M bounding boxes for 600 object classes on 1.74M images<br>
 [Dataset description](https://storage.googleapis.com/openimages/web/factsfigures_v4.html) - Overview of Open Images V4<br>
