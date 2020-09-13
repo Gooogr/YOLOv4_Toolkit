@@ -22,6 +22,10 @@ The training set of V4 contains 14.6M bounding boxes for 600 object classes on 1
 ### How to start with it
 Follow this link to start in playground mode [Train_yolov4_imagenet.ipynb](https://colab.research.google.com/github/Gooogr/YOLO_Toolkit/blob/imagenet/Train_yolov4_imagenet.ipynb)<br>
 
+Could be useful:<br>
+[External data: Local Files, Drive, Sheets, and Cloud Storage](https://colab.research.google.com/notebooks/io.ipynb#scrollTo=eikfzi8ZT_rW) - How to upload your external data to Google Colab notebook <br>
+[Connection pushers](https://stackoverflow.com/questions/57113226/how-to-prevent-google-colab-from-disconnecting) - How to prevent Google Colab from disconnect during the training.
+
 ## Acknowledgments
 [Darknet](https://github.com/AlexeyAB/darknet) - AlexeyAB's version of the Darknet framework <br>
 [OIDv4_ToolKit](https://github.com/theAIGuysCode/OIDv4_ToolKit) - ImagenetV4 dataset downloader <br>
